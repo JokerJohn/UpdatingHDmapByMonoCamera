@@ -8,7 +8,9 @@
 
 ### 项目思路
 
-[`[http://www.xchu.net/2019/08/21/Deecamp%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0/](http://www.xchu.net/2019/08/21/Deecamp项目概述/)`]()
+```
+http://www.xchu.net/2019/08/21/Deecamp%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0/
+```
 
 ### 项目成员
 
