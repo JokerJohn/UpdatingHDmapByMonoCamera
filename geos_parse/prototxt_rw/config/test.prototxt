@@ -1,0 +1,7 @@
+armor_size {
+  width: 120 # mm
+  height: 60 # mm
+}
+
+using_hsv: true
+num: 100

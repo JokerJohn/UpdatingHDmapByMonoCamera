@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package hdmap;
+
+//地面标识
+message LaneMarking
+{
+//编号
+int32   id = 1;
+//位置 WKT
+string  geometry = 2;
+//类型，1：人行道；2：停止线；3：地面标识
+int32   type = 3;
+}
+
+//单帧
+message LaneMarkingPerFrame
+{
+//帧ID,编号从0开始
+int32   frame_id  = 1;
+repeated LaneMarking lane_markings = 2;
+}
+
+//单文件
+message LaneMarkingPerCapture
+{
+//场景id，视频文件名
+string   scene_id = 1;
+repeated LaneMarkingPerFrame lane_marking_frames = 2;
+}

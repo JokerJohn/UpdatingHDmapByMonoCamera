@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package hdmap;
+
+message Light
+{
+//编号
+int32   id = 1;
+//位置WKT
+string  geometry = 2;
+//类型，1：竖排；2：横排
+int32   direction = 3;
+}
+
+//交通灯
+message TrafficLight
+{
+//编号
+int32   id = 1;
+//位置WKT
+string  geometry = 2;
+//类型，1：车辆；2：行人
+int32   motor_type = 3;
+//灯
+repeated Light lights= 4;
+}
+
+//单帧
+message TrafficLightPerFrame
+{
+//帧id，从0开始
+int32    frame_id  = 1;
+repeated TrafficLight traffic_lights = 2;
+}
+
+//单文件
+message TrafficLightPerCapture
+{
+//场景id，视频文件名
+string   scene_id = 1;
+repeated TrafficLightPerFrame traffic_light_frames = 2;
+}

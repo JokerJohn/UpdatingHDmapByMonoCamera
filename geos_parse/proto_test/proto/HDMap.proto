@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package hdmap;
+
+import "Divider.proto";
+import "TrafficLight.proto";
+import "LaneMarking.proto";
+
+message HDMap
+{
+//场景id，视频文件名
+string   scene_id = 1;
+//车道线
+repeated Divider dividers = 2;
+//交通灯
+repeated TrafficLight tafficlights = 3;
+//地面标识
+repeated LaneMarking lanemarkings = 4;
+string   version = 5;
+}
+

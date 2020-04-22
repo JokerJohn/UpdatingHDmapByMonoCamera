@@ -1,0 +1,6 @@
+using_hsv: false
+num: 324.232391
+armor_size {
+  width: 1.2
+  height: 3.21
+}

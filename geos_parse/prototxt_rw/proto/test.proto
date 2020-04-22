@@ -1,0 +1,12 @@
+syntax = "proto2";
+package test;
+message ArmorSize {
+  required float width = 1;
+  required float height = 2;
+}
+message ConstraintSetConfig{
+  required bool using_hsv = 1;
+  required float num = 2;
+  repeated ArmorSize armor_size = 3;
+}
+

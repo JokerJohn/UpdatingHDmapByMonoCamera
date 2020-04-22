@@ -1,0 +1,229 @@
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001099.png 202,241,222,296,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004687.png 596,144,622,168,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001714.png 1067,400,1107,445,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001890.png 320,265,379,327,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000218.png 1043,18,1083,60,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001463.png 1047,413,1095,458,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002195.png 744,312,788,355,2 725,272,778,316,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002591.png 454,289,511,345,1 445,234,502,286,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001098.png 468,281,504,366,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001517.png 289,380,358,450,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004321.png 674,141,705,169,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002593.png 399,235,422,255,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003882.png 296,129,323,155,1 633,138,654,159,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003909.png 866,112,896,140,2 865,140,898,169,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004531.png 594,138,624,165,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002814.png 738,171,766,198,2 911,169,939,196,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001676.png 587,307,619,340,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002431.png 734,211,760,234,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002545.png 716,192,745,220,2 892,191,925,220,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004646.png 708,145,730,167,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001514.png 1011,193,1107,284,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004326.png 745,135,785,172,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004454.png 686,146,709,168,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000395.png 1143,255,1217,325,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002569.png 694,348,722,371,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004939.png 244,60,260,77,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004044.png 545,127,568,151,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000961.png 228,173,267,267,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002637.png 400,266,424,291,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000746.png 174,360,203,426,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003514.png 801,143,852,191,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002839.png 522,256,683,413,2 339,239,505,402,1 158,221,324,385,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004131.png 395,238,419,263,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001049.png 186,248,220,327,0 93,610,103,642,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004858.png 693,52,730,80,0 582,59,597,74,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001511.png 458,320,501,363,1 412,322,454,365,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003312.png 876,230,912,266,2 1095,240,1134,277,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004482.png 840,137,878,170,0 698,143,716,162,2 696,159,716,178,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000814.png 505,250,553,369,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003106.png 347,385,395,434,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000553.png 418,471,486,538,1 419,377,486,444,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003265.png 105,139,209,244,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001116.png 84,349,100,387,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003926.png 709,148,724,163,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002392.png 257,408,274,424,2 648,359,677,384,1 243,406,258,424,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000368.png 561,418,611,468,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004873.png 875,28,931,74,0 625,50,644,69,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000870.png 458,350,486,436,1 461,443,487,529,1 402,484,422,535,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001575.png 1211,273,1259,319,1 1050,283,1095,328,2 1002,286,1047,328,1 956,289,1000,334,1 1094,413,1131,449,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003404.png 493,378,547,435,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001763.png 647,346,696,397,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003174.png 484,466,515,497,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004960.png 136,33,159,56,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000253.png 938,275,995,332,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003014.png 760,419,789,447,1 564,433,605,474,2 519,431,560,472,1 473,428,515,468,1 309,301,356,350,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002478.png 492,245,560,313,2 505,310,573,387,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002849.png 377,356,494,460,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002120.png 171,215,204,242,2 730,188,758,217,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000079.png 782,285,811,311,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003203.png 402,181,434,213,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004752.png 695,96,721,119,1 678,124,700,145,2 675,141,699,165,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004785.png 268,53,284,69,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001945.png 1187,239,1238,286,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002041.png 312,159,349,194,2 1140,140,1190,187,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000654.png 624,566,670,615,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002282.png 728,288,751,313,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003611.png 793,144,813,163,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001760.png 358,409,409,457,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001600.png 332,309,539,522,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002645.png 894,234,931,273,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001416.png 144,121,196,173,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003002.png 458,299,551,391,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001615.png 1082,569,1121,609,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002526.png 789,152,832,194,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002532.png 844,250,911,317,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000494.png 446,618,470,641,1 460,347,537,421,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001563.png 803,248,869,322,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000866.png 240,406,269,477,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001588.png 638,216,826,410,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001201.png 434,701,453,750,1 300,709,327,780,2 270,702,297,774,1 239,699,266,767,1 45,328,84,430,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000484.png 948,436,981,471,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003614.png 827,141,849,162,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002640.png 257,321,347,410,1 355,326,446,416,1 453,332,546,422,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002127.png 583,379,608,402,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001360.png 162,445,210,569,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004581.png 565,106,584,125,1 580,106,597,124,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003588.png 534,118,555,139,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003952.png 645,108,667,132,2 643,130,667,154,2 482,83,502,103,1 499,83,519,102,1 517,84,536,104,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002286.png 414,269,467,324,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004422.png 598,154,613,169,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000875.png 605,354,629,414,1 524,367,547,426,2 500,371,523,426,1 478,375,500,434,1 546,536,565,583,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002910.png 824,149,865,191,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003830.png 550,92,572,115,1 570,92,591,115,1 589,93,610,114,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001941.png 826,304,852,329,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000295.png 956,379,1002,423,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003763.png 790,121,826,155,2 790,150,822,182,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000901.png 52,148,71,193,1 216,341,230,374,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004568.png 390,117,418,141,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002695.png 847,125,886,163,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003986.png 664,182,701,213,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003979.png 634,206,660,229,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002246.png 657,195,673,214,1 669,241,706,275,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001001.png 277,364,325,481,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000121.png 399,366,449,416,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001217.png 217,566,231,603,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002078.png 1020,367,1052,396,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000104.png 807,131,853,177,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002263.png 573,236,626,290,1 630,243,682,299,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000266.png 1127,131,1208,210,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001636.png 492,377,515,401,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002854.png 626,333,724,435,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003237.png 523,393,606,506,1 513,282,597,392,1 344,452,422,553,1 335,353,427,450,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003544.png 855,103,886,134,2 853,131,885,162,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004029.png 292,220,326,253,2 728,237,754,262,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004940.png 239,59,256,76,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004968.png 63,29,98,57,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003961.png 779,91,808,121,2 775,119,807,150,2 556,72,578,94,1 575,73,598,96,1 596,73,617,96,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000461.png 121,72,184,136,2 793,253,816,273,2 929,257,950,277,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000475.png 426,112,532,287,0 198,514,241,557,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004834.png 605,60,623,79,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000105.png 1127,267,1189,326,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000878.png 229,560,245,596,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002062.png 253,192,633,570,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001231.png 514,335,526,365,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000649.png 608,294,664,351,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001782.png 945,461,995,509,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000311.png 838,468,865,493,0 839,442,864,467,0 733,285,820,366,0 738,198,828,283,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000259.png 478,425,510,456,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003552.png 571,93,591,112,1 588,92,607,112,1 605,92,626,112,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003221.png 265,116,286,137,2 736,104,782,147,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000728.png 225,452,294,620,0 231,280,297,452,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000700.png 264,490,278,525,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000072.png 933,270,972,304,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004770.png 722,141,745,163,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003396.png 725,431,749,457,1 651,310,671,332,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002098.png 523,279,635,421,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003806.png 306,133,337,161,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003635.png 381,144,399,163,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000466.png 342,608,369,635,1 806,370,855,421,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004614.png 899,127,933,159,2 901,95,938,129,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003580.png 507,131,523,149,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002649.png 406,306,430,329,1 433,308,453,328,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004204.png 102,162,147,206,1 483,138,506,160,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003224.png 128,342,186,432,1 649,341,742,441,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001433.png 371,422,420,473,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000922.png 135,196,206,412,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003185.png 366,255,409,315,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002066.png 683,416,715,451,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001590.png 492,90,549,142,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002933.png 1028,348,1068,392,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001584.png 184,440,218,474,1 470,379,534,444,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000883.png 102,456,128,531,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002299.png 375,372,424,421,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003805.png 316,136,346,162,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004165.png 775,205,817,248,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002514.png 821,189,909,264,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003597.png 589,96,621,128,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000934.png 305,379,352,503,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000935.png 547,142,593,261,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003964.png 673,154,692,173,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004951.png 188,44,210,63,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002267.png 238,180,274,217,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003637.png 369,139,389,161,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003390.png 504,234,528,258,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002930.png 1148,265,1214,321,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002924.png 918,200,976,255,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002943.png 311,477,340,506,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001279.png 274,375,354,578,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002228.png 475,238,545,304,0 491,313,563,378,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002360.png 328,306,365,342,1 341,348,377,379,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003268.png 633,321,761,451,0 197,506,301,610,1 200,414,300,503,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000991.png 294,532,317,590,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001456.png 999,413,1038,449,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000984.png 448,590,461,624,1 336,444,359,530,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000774.png 205,522,216,548,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002611.png 298,226,364,293,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001495.png 946,344,1004,402,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003296.png 347,171,393,214,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000576.png 869,219,950,320,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003686.png 760,25,811,73,2 755,71,806,118,2 757,116,804,163,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002968.png 977,364,1031,427,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002940.png 152,686,224,757,1 382,166,501,270,0 204,159,320,264,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002767.png 392,336,475,420,1 540,437,658,538,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003690.png 602,138,617,153,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001044.png 267,521,303,607,0 269,408,305,497,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004128.png 408,239,432,264,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002388.png 791,200,845,252,2 892,225,924,266,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000560.png 1193,208,1230,244,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004289.png 725,146,749,171,2 696,146,718,165,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000789.png 157,286,176,332,2 580,256,605,321,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001326.png 234,469,269,559,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003281.png 581,12,639,71,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001864.png 148,70,267,189,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003652.png 309,127,335,153,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001521.png 399,366,449,416,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002766.png 574,362,598,387,2 329,302,349,337,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003487.png 230,400,254,425,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003493.png 552,313,640,399,0 556,220,646,306,0 416,445,475,507,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003332.png 1045,279,1093,327,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000613.png 399,400,538,542,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004688.png 603,142,630,167,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003859.png 345,142,367,163,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001900.png 706,447,734,476,2 672,446,701,475,1 640,446,669,475,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000439.png 557,255,624,325,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001647.png 877,289,932,365,2 876,369,937,439,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002170.png 828,238,888,291,1 805,344,833,375,1 841,295,900,351,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004272.png 741,142,777,178,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000941.png 520,242,559,344,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000564.png 502,362,542,397,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004058.png 560,79,593,113,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003045.png 420,449,462,491,1 378,453,422,492,0 327,450,371,490,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001691.png 588,410,634,454,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003643.png 313,122,343,152,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001901.png 870,540,907,577,1 600,546,654,600,2 540,541,594,596,1 479,538,533,590,1 92,253,169,331,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003333.png 285,127,490,324,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003325.png 884,178,917,210,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000176.png 432,377,468,410,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002239.png 775,340,816,381,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/004066.png 383,239,403,258,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002832.png 514,287,619,383,0 511,391,617,488,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002198.png 577,215,621,254,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000770.png 540,412,583,518,1 542,306,584,414,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003278.png 241,474,274,509,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000765.png 271,540,300,613,2 239,539,268,614,1 207,541,236,614,1
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/000956.png 366,293,413,421,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001679.png 543,167,563,187,2 1220,140,1269,184,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/001686.png 282,394,316,427,2
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/002990.png 492,90,549,142,0
+/Users/alan.ke/Repositories/Object-Detection-YOLOv3/VOC_sign/VOC2007/PNGImages/003324.png 305,320,410,430,1

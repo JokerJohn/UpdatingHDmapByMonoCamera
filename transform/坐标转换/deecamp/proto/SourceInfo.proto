@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+package source;
+
+
+message GPSPoint
+{
+//编号
+int32 id = 1;
+//时间
+int64 gpstime = 2;
+//航向
+double heading = 3;
+//速度
+double speed = 4;
+//精度(invalid)
+double accuracy = 5;
+//卫星个数(invalid)
+int32 sum = 6;
+//坐标 WKT
+string geometry = 7;
+}
+
+message GPSInfo
+{
+//场景ID
+string scene_id = 1;
+//设备名称
+string device_id = 2;
+//GPS点集合
+repeated GPSPoint pts = 3;
+
+string version = 4;
+}
+
+message IMUInfo
+{
+//编号
+int32 id = 1;
+//场景ID
+string scene_id = 2;
+//设备名称
+string device = 3;
+}
+
+message VideoInfo
+{
+//编号
+int32 id = 1;
+//场景ID
+string scene_id = 2;
+//设备名称
+string device = 3;
+//文件路径
+string path = 4;
+}

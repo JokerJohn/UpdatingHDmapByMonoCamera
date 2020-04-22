@@ -1,2 +1,44 @@
-# UpdatingHDmapByMonoCamera
-a hdmap creating and updating project by mono camera
+# HD Map Project 
+
+## 项目说明
+
+​		基于车载摄像头的高精地图创建与更新，此项目源于Deecamp 2019北京训练营，目前整理完代码并开源出来。此项目是一种利用单目相机+高精度GPS完成高精度地图的更新的低成本方案，可以拓展至视觉车道线重建制图。
+
+​		由于训练营时间以及分组限制，目前开源的代码是我们二组的，完成了车道线更新部分，地标以及道路标志牌红绿灯的更新都未完成。代码数据来源于滴滴公司，这里保密，指导老师为滴滴AIlab刘梦瑶学姐，感谢！另外感谢创新工场提供的平台！
+
+### 项目成员
+
+```
+北京大学：林中亚
+杜克大学：张景
+北京航空航天大学：王友辰、胡想成
+北京理工大学：刘丰刚、林瀚熙
+中国科学技术大学：柯延杰
+哈尔滨工业大学：刘欢锂
+中科院上海微电子研究所：姜昊辰
+国科大：陈卓
+山东大学：程大海
+```
+
+### 工程文件夹
+
+```
+HDMapProject:主工程目录
+-hdmap
+-config	参数配置目录
+-data
+-gps  gps数据,一帧代表一个scene_id,对应几百个GPS位置坐标和图片
+-detection_result  中间检测结果
+-images  9万张图片,按编号有顺序
+-proto	 在clone之到本地后需要删除.h和.cc文件
+-src	源目录代码
+-utils  相关库
+-CMakeLists.txt
+```
+
+### 技术方案
+
+```
+https://shimo.im/docs/gqPgyHg9gpJgQYtR/ 《胡想成组技术方案v1.1》
+```
+

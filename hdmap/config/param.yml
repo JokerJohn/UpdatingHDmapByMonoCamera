@@ -1,0 +1,35 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Configuration Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Image information about width & height
+
+Image.width: 1920
+Image.height: 1080
+
+# Camera calibration and distortion parameters (OpenCV) 
+
+Camera.fx: 1261.501206545319
+Camera.fy: 1147.048474835442
+Camera.cx: 976.2383478986866
+Camera.cy: 530.589333254679
+
+Camera.k1: -0.4039346734945025
+Camera.k2: 0.1488016793983929
+Camera.p1: 0.001059521151138014
+Camera.p2: 0.0005015718248852138
+
+# Camera frames per second 
+Camera.fps: 30.0
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Camera and body coordinate system transformation relationship (m)
+Cam.yaw: -0.08726646
+Cam.pitch: 0.06981317
+Cam.roll: 0.00
+Cam.heigth: 1.32
+

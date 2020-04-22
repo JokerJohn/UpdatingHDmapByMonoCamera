@@ -1,0 +1,9 @@
+
+<launch>
+ 
+  <node pkg="hd_map" type="map_pub.py" name="map_pub" output="screen" />
+
+
+</launch>
+
+
