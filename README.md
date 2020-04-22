@@ -6,6 +6,10 @@
 
 ​		由于训练营时间以及分组限制，目前开源的代码是我们二组的，完成了车道线更新部分，地标以及道路标志牌红绿灯的更新都未完成。代码数据来源于滴滴公司，这里保密，指导老师为滴滴AIlab刘梦瑶学姐，感谢！另外感谢创新工场提供的平台！
 
+### 项目思路
+
+[`[http://www.xchu.net/2019/08/21/Deecamp%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0/](http://www.xchu.net/2019/08/21/Deecamp项目概述/)`]()
+
 ### 项目成员
 
 ```
@@ -23,17 +27,13 @@
 ### 工程文件夹
 
 ```
-HDMapProject:主工程目录
--hdmap
--config	参数配置目录
--data
--gps  gps数据,一帧代表一个scene_id,对应几百个GPS位置坐标和图片
--detection_result  中间检测结果
--images  9万张图片,按编号有顺序
--proto	 在clone之到本地后需要删除.h和.cc文件
--src	源目录代码
--utils  相关库
--CMakeLists.txt
+-hdmap  主工程目录
+-dataset  数据目录
+-detection 视觉检测模块
+-geos_parse geos空间计算
+-transform  坐标转换和深度估计
+-visualization  rviz以及pcl可视化
+-apollo_hdmap_example apollo hdmap数据示例
 ```
 
 ### 技术方案
@@ -41,4 +41,3 @@ HDMapProject:主工程目录
 ```
 https://shimo.im/docs/gqPgyHg9gpJgQYtR/ 《胡想成组技术方案v1.1》
 ```
-
