@@ -12,23 +12,17 @@
 
 ### 项目成员
 
-北京大学：[林中亚](https://github.com/daniallin)
-
-杜克大学：[张景](https://github.com/zhangjing1997)
-
-北京航空航天大学：[王友辰](https://github.com/yohoochen)、[胡想成](https://github.com/JokerJohn)
-
-北京理工大学：[刘丰刚](https://github.com/LiuFG)、[林瀚熙]()
-
-中国科学技术大学：[柯延杰](https://github.com/USTC-Keyanjie)
-
-哈尔滨工业大学：[刘欢锂]()
-
-中科院上海微电子研究所：[姜昊辰](https://github.com/jhch1995)
-
-国科大：[陈卓]()
-
-山东大学：[程大海](https://github.com/DaHaiHuha)
+| 高校                   | 成员                                                         |
+| :--------------------- | :----------------------------------------------------------- |
+| 北京大学               | [林中亚](https://github.com/daniallin)                       |
+| 杜克大学               | [张景](https://github.com/zhangjing1997)                     |
+| 北京航空航天大学       | [王友辰](https://github.com/yohoochen)、[胡想成](https://github.com/JokerJohn) |
+| 北京理工大学           | [刘丰刚](https://github.com/LiuFG)、[林瀚熙]()               |
+| 中国科学技术大学       | [柯延杰](https://github.com/USTC-Keyanjie)                   |
+| 哈尔滨工业大学         | [刘欢锂]()                                                   |
+| 中科院上海微电子研究所 | [姜昊辰](https://github.com/jhch1995)                        |
+| 国科大                 | [陈卓]()                                                     |
+| 山东大学               | [程大海](https://github.com/DaHaiHuha)                       |
 
 ### 工程文件夹
 
