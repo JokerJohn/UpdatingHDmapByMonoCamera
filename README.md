@@ -35,13 +35,29 @@
 -visualization  rviz以及pcl可视化
 ```
 
-## 代码规范
+## 项目规范
+
+### 代码风格
 
 程序遵守`google-code-style`
+
+### Git规范
+
+使用**Git Flow**分支结构
+
+#### master
+
+master分支上的代码必须是**稳定、可用**的
+
+#### develop
+
+日常开发的主要分支，命名为 **develop**
 
 ## TO DO
 
 - 整理原始代码工程
+
+- 红绿灯/交通标志牌深度估计、匹配与融合
 
 - 车道线追踪/融合
 
