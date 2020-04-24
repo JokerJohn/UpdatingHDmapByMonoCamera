@@ -1,2 +1,0 @@
-detection_result_1 是我们目标检测模块做的结果。
-detection_result 是滴滴提供的。

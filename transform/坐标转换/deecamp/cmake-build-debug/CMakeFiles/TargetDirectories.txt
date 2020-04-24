@@ -1,3 +1,0 @@
-/home/jianghc/testproject/deecamp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jianghc/testproject/deecamp/cmake-build-debug/CMakeFiles/deecamp.dir
-/home/jianghc/testproject/deecamp/cmake-build-debug/CMakeFiles/edit_cache.dir
