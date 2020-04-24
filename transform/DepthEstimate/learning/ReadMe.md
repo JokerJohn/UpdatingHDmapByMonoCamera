@@ -1,14 +1,16 @@
 # Intruduction
 
+![](ReadMe/TIM%E5%9B%BE%E7%89%8720200424104944.png)
+
 Update: 林中亚
 
 Depth Estimation
-
 
 # Process
 
 - 完善《14讲》13.2节程序，获取每张图片的深度估计，并保存
 
+![](ReadMe/TIM%E5%9B%BE%E7%89%8720200424104952.png)
 
 # TODO
 
