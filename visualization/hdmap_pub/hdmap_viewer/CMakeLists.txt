@@ -1,18 +1,18 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(hdmap_viewer)
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  rospy
-  pcl_conversions
-  pcl_msgs
-#  pcl_ros
-  sensor_msgs
-  std_msgs
-  message_generation)
+        roscpp
+        rospy
+        pcl_conversions
+        pcl_msgs
+        #  pcl_ros
+        sensor_msgs
+        std_msgs
+        message_generation)
 set(PCL_DIR "/home/lfg/pcl/PCLConfig.cmake")
 
-find_package(PCL  REQUIRED)
-include_directories(include ${PCL_INCLUDE_DIRS} )
+find_package(PCL REQUIRED)
+include_directories(include ${PCL_INCLUDE_DIRS})
 find_package(OpenCV)
 include_directories(include ${OpenCV_INCLUDE_DIRS})
 #include_directories(/usr/local/include )
@@ -36,10 +36,10 @@ generate_messages(
 )
 
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES pcl_deal
-#  CATKIN_DEPENDS pcl_conversions pcl_msgs pcl_ros sensor_msgs
-#  DEPENDS system_lib
+        #  INCLUDE_DIRS include
+        #  LIBRARIES pcl_deal
+        #  CATKIN_DEPENDS pcl_conversions pcl_msgs pcl_ros sensor_msgs
+        #  DEPENDS system_lib
 )
 catkin_package(
         DEPENDS system_lib
@@ -52,8 +52,8 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
+        # include
+        ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library

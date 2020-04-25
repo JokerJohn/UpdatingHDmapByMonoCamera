@@ -23,7 +23,8 @@ int main() {
     Eigen::Vector3d ea0(camera_yaw, camera_pitch, camera_roll);
     Eigen::Matrix3d Rcb;
     cv::Mat mRcb, mRbc;
-    Rcb = Eigen::AngleAxisd(-ea0[1], Eigen::Vector3d::UnitX())* Eigen::AngleAxisd(ea0[0], Eigen::Vector3d::UnitY())*Eigen::AngleAxisd(+M_PI/2, Eigen::Vector3d::UnitX());
+    Rcb = Eigen::AngleAxisd(-ea0[1], Eigen::Vector3d::UnitX()) * Eigen::AngleAxisd(ea0[0], Eigen::Vector3d::UnitY()) *
+          Eigen::AngleAxisd(+M_PI / 2, Eigen::Vector3d::UnitX());
     cv::eigen2cv(Rcb, mRcb);
     mRbc = mRcb.t();
 
@@ -48,20 +49,20 @@ int main() {
     mRbc.copyTo(mTbc.rowRange(0, 3).colRange(0, 3));
     mTbc.row(2).col(3) = 1.32;
     mTcb = mTbc.inv();
-    std::cout<<"mTcb"<<mTcb<<std::endl;
+    std::cout << "mTcb" << mTcb << std::endl;
 
     /************ Test VO  between img1 and img2 **************/
     string basedir = "/home/jianghc/testproject/hdmap/data/vo_test/undistort/";
     string scene_id = "20190123112924_d5096201da81bc8443f1aabccef099c0_4";
-    Mat img_1 = imread ( basedir + scene_id + "_324.jpeg", CV_LOAD_IMAGE_COLOR );
-    Mat img_2 = imread ( basedir + scene_id + "_329.jpeg", CV_LOAD_IMAGE_COLOR );
+    Mat img_1 = imread(basedir + scene_id + "_324.jpeg", CV_LOAD_IMAGE_COLOR);
+    Mat img_2 = imread(basedir + scene_id + "_329.jpeg", CV_LOAD_IMAGE_COLOR);
     /// get boxes of img_1 and img_2
-    vector<BBox> boxes;
+    vector <BBox> boxes;
     string image_id = scene_id + "_119";
 //    readBoxes(image_id, "traffic light", boxes);
     readBoxes(image_id, "traffic sign", boxes);
     cout << "boxes size: " << boxes.size() << endl;
-    for (BBox& box : boxes) {
+    for (BBox &box : boxes) {
         rectangle(img_1, cvPoint(box.xmin, box.ymin), cvPoint(box.xmax, box.ymax), Scalar(0, 0, 255), 1, 1, 0);
     }
     /// get poses from gps
@@ -70,20 +71,20 @@ int main() {
     ReadHDMap::getIndexByImageId(scene_id + "_329", image_index_2);
     cout << "image_index_1: " << image_index_1 << endl;
     cout << "image_index_2: " << image_index_2 << endl;
-    vector<cv::Mat> poses = getPosesBySceneId(scene_id, original, mTcb);
-    std::cout<<"pose size： "<<poses.size()<<std::endl;
+    vector <cv::Mat> poses = getPosesBySceneId(scene_id, original, mTcb);
+    std::cout << "pose size： " << poses.size() << std::endl;
     cv::Mat pose1 = poses[image_index_1];
     cv::Mat pose2 = poses[image_index_2];
 
     ///-- 提取图像中的特征点且初步筛选
-    vector<KeyPoint> keypoints_1, keypoints_2;
-    vector<DMatch> good_matches;
-    find_feature_matches ( img_1, img_2, keypoints_1, keypoints_2, good_matches); //matches在该函数内部定义的
+    vector <KeyPoint> keypoints_1, keypoints_2;
+    vector <DMatch> good_matches;
+    find_feature_matches(img_1, img_2, keypoints_1, keypoints_2, good_matches); //matches在该函数内部定义的
     ///-- 估计两张图像间运动
     Mat R, t;
-    pose_estimation_2d2d ( keypoints_1, keypoints_2, good_matches, R, t, K);
+    pose_estimation_2d2d(keypoints_1, keypoints_2, good_matches, R, t, K);
     ///-- 只关心目标区域内的点
-    vector<DMatch> target_matches;
+    vector <DMatch> target_matches;
 //    for ( DMatch m : good_matches ) {
 //        int x = keypoints_1[m.queryIdx].pt.x;
 //        int y = keypoints_1[m.queryIdx].pt.y;
@@ -91,7 +92,7 @@ int main() {
 //            target_matches.push_back(m);
 //        }
 //    }
-    for ( DMatch m : good_matches ) {
+    for (DMatch m : good_matches) {
 //        int x = keypoints_1[m.queryIdx].pt.x;
 //        int y = keypoints_1[m.queryIdx].pt.y;
 //        if (x > boxes[1].xmin && x < boxes[1].xmax && y > boxes[1].ymin && y < boxes[1].ymax) {
@@ -104,43 +105,45 @@ int main() {
     ///-- 三角化 - 通过gps算的t作为绝对尺度
     Mat T1, T2;
     // 第1种思路：
-    T1 = (Mat_<double> (3,4) <<
-            pose1.at<double>(0,0), pose1.at<double>(0,1), pose1.at<double>(0,2), pose1.at<double>(0,3) ,
-            pose1.at<double>(1,0), pose1.at<double>(1,1), pose1.at<double>(1,2), pose1.at<double>(1,3),
-            pose1.at<double>(2,0), pose1.at<double>(2,1), pose1.at<double>(2,2), pose1.at<double>(2,3));
+    T1 = (Mat_<double>(3, 4) <<
+                             pose1.at<double>(0, 0), pose1.at<double>(0, 1), pose1.at<double>(0, 2), pose1.at<double>(0,
+                                                                                                                      3),
+            pose1.at<double>(1, 0), pose1.at<double>(1, 1), pose1.at<double>(1, 2), pose1.at<double>(1, 3),
+            pose1.at<double>(2, 0), pose1.at<double>(2, 1), pose1.at<double>(2, 2), pose1.at<double>(2, 3));
     cv::Mat RT1 = T1.colRange(0, 3).rowRange(0, 3);
 //    T1 = K * T1;
-    T2 = (Mat_<double> (3,4) <<
-            pose2.at<double>(0,0), pose2.at<double>(0,1), pose2.at<double>(0,2), pose2.at<double>(0,3),
-            pose2.at<double>(1,0), pose2.at<double>(1,1), pose2.at<double>(1,2), pose2.at<double>(1,3),
-            pose2.at<double>(2,0), pose2.at<double>(2,1), pose2.at<double>(2,2), pose2.at<double>(2,3));
+    T2 = (Mat_<double>(3, 4) <<
+                             pose2.at<double>(0, 0), pose2.at<double>(0, 1), pose2.at<double>(0, 2), pose2.at<double>(0,
+                                                                                                                      3),
+            pose2.at<double>(1, 0), pose2.at<double>(1, 1), pose2.at<double>(1, 2), pose2.at<double>(1, 3),
+            pose2.at<double>(2, 0), pose2.at<double>(2, 1), pose2.at<double>(2, 2), pose2.at<double>(2, 3));
 //    T2 = K * T2;
     cv::Mat RT2 = T2.colRange(0, 3).rowRange(0, 3);
     cv::Mat convertR;
-    convertR = RT1.t()*RT2;
+    convertR = RT1.t() * RT2;
     cout << "convertR: " << convertR << endl;
     cout << "T1: " << T1 << endl << "T2: " << T2 << endl;
 //    cout << "Pose1: " << pose1 << endl << "Pose2: " << pose2 << endl;
     //这里第四列减完之后要转到T1的相机坐标系中。
-    vector<Point3d> points;
+    vector <Point3d> points;
 
-    std::cout<<"Pose1: "<<pose1.inv()<<std::endl;// Twc
-    triangulation( keypoints_1, keypoints_2, K, target_matches, T1, T2, points);
-    std::cout<<"Points: "<<points[0]<<std::endl;
+    std::cout << "Pose1: " << pose1.inv() << std::endl;// Twc
+    triangulation(keypoints_1, keypoints_2, K, target_matches, T1, T2, points);
+    std::cout << "Points: " << points[0] << std::endl;
 //    cv::Mat pointout = (cv::Mat_<double>(4, 1) << 0.097*3.77, -0.236*3.77, -0.96*3.77, 1);
 //    std::cout<<"enu Points"<<pose1.inv() * pointout;
 
     //-- 验证三角化点与特征点的重投影关系
     double depth_total = 0;
-    for ( int i=0; i < target_matches.size(); i++ )
-    {
-        Point2d pt1_cam = pixel2cam( keypoints_1[ target_matches[i].queryIdx ].pt, K );
-        Point2d pt1_cam_3d( points[i].x / points[i].z, points[i].y / points[i].z); //坐标归一化
+    for (int i = 0; i < target_matches.size(); i++) {
+        Point2d pt1_cam = pixel2cam(keypoints_1[target_matches[i].queryIdx].pt, K);
+        Point2d pt1_cam_3d(points[i].x / points[i].z, points[i].y / points[i].z); //坐标归一化
 
-        cout << "point in the first camera frame: "<< pt1_cam << endl;
+        cout << "point in the first camera frame: " << pt1_cam << endl;
         cout << "point projected from 3D " << pt1_cam_3d << ", depth = " << points[i].z << endl;
         depth_total += points[i].z;
-        putText(img_1, to_string(points[i].z), keypoints_1[target_matches[i].queryIdx].pt, cv::FONT_HERSHEY_PLAIN, 1.0, cv::Scalar(0,0,255),1, 8, 0);
+        putText(img_1, to_string(points[i].z), keypoints_1[target_matches[i].queryIdx].pt, cv::FONT_HERSHEY_PLAIN, 1.0,
+                cv::Scalar(0, 0, 255), 1, 8, 0);
 
 //        // 第二个图
 ////        Point2f pt2_cam = pixel2cam( keypoints_2[ target_matches[i].trainIdx ].pt, K );
@@ -157,7 +160,7 @@ int main() {
 }
 
 
-    /************ For single image (specified by gps_index & ref_img_index): GET DEPTH MAP *********/
+/************ For single image (specified by gps_index & ref_img_index): GET DEPTH MAP *********/
 //    int gps_index, ref_img_index;
 //    vector<ImageBatch> imageBatch_vec;
 //    bool flag = ReadHDMap::getAllImageBatch(imageBatch_vec);
@@ -180,13 +183,13 @@ int main() {
 //    string mode = "full";
 //    getDepthMapOfSingleImage(gps_index, ref_img_index, imageBatch_vec, original, depth, depth_cov, image3D, mode);
 
-    /************ For single scene (specified by gps_index): Calculate Divider Points Depth *********/
+/************ For single scene (specified by gps_index): Calculate Divider Points Depth *********/
 //    for (int i = 0; i < imageBatch_vec.size(); i++) {
 //        if (imageBatch_vec[i].scene_id == "20190123112838_3faf30bde99e0f126cda2432ec90a621_4") {
 //            cout << "gps index is : " << i << endl;
 //        }
 //    }
-    //这里查出来的gps_index是1.
+//这里查出来的gps_index是1.
 
 //    int gps_index = 2;
 //    string scene_id = imageBatch_vec[gps_index].scene_id;
@@ -243,7 +246,7 @@ int main() {
 
 
 
-    /************ For single scene(specified by gps_index): GET ALL DEPTH MAPS ********/
+/************ For single scene(specified by gps_index): GET ALL DEPTH MAPS ********/
 //    vector<Image3D> images_gps;
 //    getDepthMapOfSingleScene(23, imageBatch_vec, original, images_gps); //23代表测试的gps_index
 //    cout << "images_gps : " << imageBatch_vec[23].scene_id << " size: " << images_gps.size() << endl;
@@ -339,41 +342,41 @@ int main() {
 
 
 
-    /************************************************************************************************************
-     *    根据scene_id获取GPS数据
-     ************************************************************************************************************/
-    /*    GPSInfoEach gpsInfoEach = ReadHDMap::getGPSInfoBySceneId(scene_id);
-        vector<GPSPointEach> points = gpsInfoEach.gpsPoints;
-        for (int k = 0; k < points.size(); ++k) {
-            cout << " points:" << points[k].points.x<<"," << points[k].points.y << "," << points[k].points.z << endl;
-            cout << " heading:" << points[k].heading << endl;
-        }*/
-
-
-    /************************************************************************************************************
-    *    读取整张hdmap高精地图元素
-    ************************************************************************************************************/
-    /*HDMAP readMap = ReadHDMap::getHDMAP();
-    vector<DividerEach> dividerEach = readMap.dividers;
-    for (int j = 0; j < dividerEach.size(); ++j) {
-        std::cout << "test hd map:" << readMap.dividers[19].divider_vec[5].x << endl;
+/************************************************************************************************************
+ *    根据scene_id获取GPS数据
+ ************************************************************************************************************/
+/*    GPSInfoEach gpsInfoEach = ReadHDMap::getGPSInfoBySceneId(scene_id);
+    vector<GPSPointEach> points = gpsInfoEach.gpsPoints;
+    for (int k = 0; k < points.size(); ++k) {
+        cout << " points:" << points[k].points.x<<"," << points[k].points.y << "," << points[k].points.z << endl;
+        cout << " heading:" << points[k].heading << endl;
     }*/
 
-    /************************************************************************************************************
-     *    获取每一帧GPS及其对应的图片名称集合,按顺序存储
-     ************************************************************************************************************/
-      /*  vector<ImageBatch> imageBatch_vec;
-        bool flag3 = ReadHDMap::getAllImageBatch(imageBatch_vec);
-    //    cout << "dfgfb:"<< dataFiles.size()<<" dfgfd:"<< dataFiles[100].images_vec.size()<< endl;
 
-        if(flag3)
-        {
-            cout << "image batch ok" << endl;
-        }*/
+/************************************************************************************************************
+*    读取整张hdmap高精地图元素
+************************************************************************************************************/
+/*HDMAP readMap = ReadHDMap::getHDMAP();
+vector<DividerEach> dividerEach = readMap.dividers;
+for (int j = 0; j < dividerEach.size(); ++j) {
+    std::cout << "test hd map:" << readMap.dividers[19].divider_vec[5].x << endl;
+}*/
 
-    /************************************************************************************************************
-     *    // 根据指定scene_id查询此帧gps数据点,按顺序输出
-     ************************************************************************************************************/
+/************************************************************************************************************
+ *    获取每一帧GPS及其对应的图片名称集合,按顺序存储
+ ************************************************************************************************************/
+/*  vector<ImageBatch> imageBatch_vec;
+  bool flag3 = ReadHDMap::getAllImageBatch(imageBatch_vec);
+//    cout << "dfgfb:"<< dataFiles.size()<<" dfgfd:"<< dataFiles[100].images_vec.size()<< endl;
+
+  if(flag3)
+  {
+      cout << "image batch ok" << endl;
+  }*/
+
+/************************************************************************************************************
+ *    // 根据指定scene_id查询此帧gps数据点,按顺序输出
+ ************************************************************************************************************/
 //        const string  gps_file_folder = "../data/gps";
 //        vector<string> gps_vec;
 //        bool flag = calulate::getAllFiles(gps_file_folder,gps_vec);
@@ -395,11 +398,11 @@ int main() {
 //    //        cout << "image batch " << imageBatch.images_vec[i] << endl;
 //            }
 //        }
-    /************************************************************************************************************
-     *    获取每一个gps点+对应一张图片
-     ************************************************************************************************************/
-    //    vector<GpsImageBatch> gpsImageBatch_vec;
-    //    bool flag5= ReadHDMap::getAllGpsImageBatch(gpsImageBatch_vec);
-    //    GpsImageBatch gpsImageBatch;
-    //    bool flag6= ReadHDMap::getGpsImageBatchByImageId(scene_id, 2, gpsImageBatch);
-    //    cout << "gps heading"<<gpsImageBatch.gpsPoint.heading<<endl;
+/************************************************************************************************************
+ *    获取每一个gps点+对应一张图片
+ ************************************************************************************************************/
+//    vector<GpsImageBatch> gpsImageBatch_vec;
+//    bool flag5= ReadHDMap::getAllGpsImageBatch(gpsImageBatch_vec);
+//    GpsImageBatch gpsImageBatch;
+//    bool flag6= ReadHDMap::getGpsImageBatchByImageId(scene_id, 2, gpsImageBatch);
+//    cout << "gps heading"<<gpsImageBatch.gpsPoint.heading<<endl;
