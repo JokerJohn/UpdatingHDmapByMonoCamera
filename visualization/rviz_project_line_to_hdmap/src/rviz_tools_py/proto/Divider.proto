@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package hdmap;
+
+message Divider
+{
+//编号
+int32   id = 1;
+//位置WKT
+string  geometry = 2;
+//颜色，0：未知；1：白色；2：黄色
+int32   color = 3;
+//类型 0:未知； 1：单虚线；2：单实线；3：双实线；4：左实右虚；5：左虚右实,；6:不可通行减速线；7：可通行减速线
+int32   type = 4;
+//遮挡程度，1：无；2：部分遮挡；3：全部遮挡(invalid)
+int32   occlusion = 5;
+}
+
+//单帧
+message DividerPerFrame
+{
+//帧id，从0开始
+int32    frame_id  = 1;
+repeated Divider dividers = 2;
+}
+
+//单文件
+message DividerPerCapture
+{
+//场景id，视频文件名
+string   scene_id = 1;
+repeated DividerPerFrame divider_frames = 2;
+}
