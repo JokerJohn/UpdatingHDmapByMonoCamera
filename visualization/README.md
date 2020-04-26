@@ -24,7 +24,7 @@
 
 蓝色为HDMap车道线, 白色点云为车道线检测结果
 
-![](figure/res.gif)
+![](README/res.gif)
 
 ### 运行
 
@@ -43,7 +43,7 @@
 
 ### 效果
 
-![](figure/tree.gif)
+![](README/tree.gif)
 
 ### 运行
 
@@ -63,7 +63,7 @@ rosrun gps_folw auto_follow.py
 
 小四边形为路面标识, 长四边形为人行横道, 绿色为红绿灯, 白线为车道线
 
-![](figure/hdmap.png)
+![](README/hdmap.png)
 
 ### 运行
 
