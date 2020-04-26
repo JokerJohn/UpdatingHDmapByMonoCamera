@@ -39,6 +39,27 @@ rosrun gps_folw auto_follow.py
 
 打开rviz
 
+## hdmap_pub
+
+### 功能
+
+把HDMap作为一个ROS节点发布, 从而达到实时更新的可视化效果
+
+### 效果
+
+小四边形为路面标识, 长四边形为人行横道, 绿色为红绿灯, 白线为车道线
+
+![](figure/hdmap.png)
+
+### 运行
+
+内含两个package,  hd_map实现python读取HDMap并发布；hdmap_viewer为C++, 实现PCL实时更新可视化
+
+```
+rosrun hdmap_pub map_pub.py
+rosrun hdmap_viewer hdmap_viewer
+```
+
 ## test_pcl
 
 pcl可视化案例
