@@ -8,6 +8,8 @@
 
 ​		目前的代码都是直接传上来的，可能无法直接run，后面会慢慢整理各模块，并给出详细的使用说明。项目里面用到的一些算法大部分都比较粗略，大佬请略过。开源本项目的目的只是为了提供一种思路，感兴趣的可提交代码。
 
+![image-20210813103307246](README/image-20210813103307246.png)
+
 ## 项目思路
 
 [博客 : 《基于车载摄像头的高精地图创建与更新》](http://www.xchu.net/2019/08/21/Deecamp%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%BF%B0/)
@@ -26,7 +28,7 @@
 | :--------------------- | :----------------------------------------------------------- |
 | 北京大学               | [林中亚](https://github.com/daniallin)                       |
 | 杜克大学               | [张景](https://github.com/zhangjing1997)                     |
-| 北京航空航天大学       | [王友辰](https://github.com/yohoochen)、[胡想成](https://github.com/JokerJohn) |
+| 北京航空航天大学       | [王友辰](https://github.com/yohoochen)、[xchu](https://github.com/JokerJohn) |
 | 北京理工大学           | [刘丰刚](https://github.com/LiuFG)、[林瀚熙]()               |
 | 中国科学技术大学       | [柯延杰](https://github.com/USTC-Keyanjie)                   |
 | 哈尔滨工业大学         | [刘欢锂]()                                                   |
