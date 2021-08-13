@@ -47,5 +47,9 @@
 -visualization  rviz以及pcl可视化
 ```
 
+## 依赖库
 
+[libgeos](https://github.com/libgeos/geos.git)
+
+[protobuf](https://github.com/protocolbuffers/protobuf.git)
 
