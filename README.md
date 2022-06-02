@@ -30,15 +30,15 @@ will be added later！
 
 | University                                                   | Name                                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| Peking University                                            | [Zhongya Lin](https://github.com/daniallin)                       |
-| Duke University                                              | [Jing Zhang](https://github.com/zhangjing1997)                     |
-| Beihang University                                           | [YOuchen Wang](https://github.com/yohoochen)、[Xiangcheng Hu](https://github.com/JokerJohn) |
-| Beijing Institute of Technology                              | [Fenggang Liu](https://github.com/LiuFG)、[Hanxi Lin]()               |
-| University of Science and Technology of China                | [Yanjie Ke](https://github.com/USTC-Keyanjie)                   |
-| Harbin Institute of Technology                               | [Huanli Liu]()                                                   |
-| Shanghai Institute of Microelectronics, Chinese Academy of Sciences | [Haocheng Jiang](https://github.com/jhch1995)                        |
-| Chinese Academy of Sciences University                       | [Zhuo Chen]()                                                     |
-| Shan Dong University                                         | [Dahai Cheng](https://github.com/DaHaiHuha)                       |
+| Peking University                                            | [Zhongya Lin](https://github.com/daniallin)                  |
+| Duke University                                              | [Jing Zhang](https://github.com/zhangjing1997)               |
+| Beihang University                                           | [Yuchen Wang](https://github.com/yohoochen)、[Xiangcheng Hu](https://github.com/JokerJohn) |
+| Beijing Institute of Technology                              | [Fenggang Liu](https://github.com/LiuFG)、[Hanxi Lin]()      |
+| University of Science and Technology of China                | [Yanjie Ke](https://github.com/USTC-Keyanjie)                |
+| Harbin Institute of Technology                               | [Huanli Liu]()                                               |
+| Shanghai Institute of Microelectronics, Chinese Academy of Sciences | [Haocheng Jiang](https://github.com/jhch1995)                |
+| Chinese Academy of Sciences University                       | [Zhuo Chen]()                                                |
+| Shan Dong University                                         | [Dahai Cheng](https://github.com/DaHaiHuha)                  |
 
 # Structure
 
