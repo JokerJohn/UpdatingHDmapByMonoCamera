@@ -6,9 +6,9 @@
 
  This project originated from the Beijing Deecamp 2019. 
 
-- At present, the code of some modules has been sorted out and open sourced. This project involves some dataset that are too large and confidential, so the whole project is difficult to run through, but the ideas can be referenced.
+- At present, the code of some modules has been sorted out and open sourced. This repo involves some datasetsthat are too large and confidential, so the whole project is difficult to run through, but the ideas can be referenced.
 
-- This project is a low-cost solution to update high-definition maps using a monocular camera  and RTK GPS. Due to the training camp time and group restrictions, the current open source code is  from group 2.  Only the update module of the lane line has been completed, and the update of landmarks and road signs and traffic lights has not been completed. 
+- This project is a low-cost solution to update high-definition maps using a monocular camera  and RTK GPS. Due to the training camp time and group restrictions, the current open source code is  from group 2.  Only the update module of the lane line has been completed, and the module of updating landmarks 、road signs and traffic lights has not been completed. 
 
 ![image-20210813103307246](visualization/README/res.gif)
 
