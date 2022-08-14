@@ -57,6 +57,10 @@ will be added later！
 
 - [protobuf](https://github.com/protocolbuffers/protobuf.git)
 
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=JokerJohn/LIO-SAM-6AXIS-INTENSITY&type=Date-16604675791593.svg+xml)](https://star-history.com/#JokerJohn/LIO-SAM-6AXIS-INTENSITY&Date)
+
 # Acknowledgments
 
 Thanks to the  [Sinovation Ventures)](https://www.chuangxin.com/)!
